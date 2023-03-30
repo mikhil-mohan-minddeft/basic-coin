@@ -1,5 +1,5 @@
 /// This module defines a minimal and generic Coin and Balance.
-module basic_coin::basic_coin {
+module basic_coin::token {
     use std::signer;
 
     /// Error codes

@@ -3,7 +3,7 @@ name = "basic_coin"
 version = "0.0.0"
 
 [addresses]
-named_addr = "0xCAFE"
+basic_coin = '_'
 
 [dependencies.AptosStdlib]
 git = 'https://github.com/aptos-labs/aptos-core.git'

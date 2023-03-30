@@ -5,9 +5,9 @@ compiled_package_info:
     Extensions: "0000000000000000000000000000000000000000000000000000000000000001"
     aptos_framework: "0000000000000000000000000000000000000000000000000000000000000001"
     aptos_std: "0000000000000000000000000000000000000000000000000000000000000001"
-    named_addr: 000000000000000000000000000000000000000000000000000000000000cafe
+    basic_coin: ed33f74bde207b613b9716934a0d03eb0046744d276c5015fa65572d6fa081ac
     std: "0000000000000000000000000000000000000000000000000000000000000001"
-  source_digest: A2C51FBA6B51528DF77A599275C3CEF9C35F182C875D1A0F6E29618FDE6CE826
+  source_digest: 549C74253B7CA57F889C12BB208A730F0C514200D014A13210C24EDE32AEBCAA
   build_flags:
     dev_mode: false
     test_mode: false
@@ -15,7 +15,8 @@ compiled_package_info:
     generate_abis: false
     install_dir: ~
     force_recompilation: false
-    additional_named_addresses: {}
+    additional_named_addresses:
+      basic_coin: ed33f74bde207b613b9716934a0d03eb0046744d276c5015fa65572d6fa081ac
     architecture: ~
     fetch_deps_only: false
     skip_fetch_latest_git_deps: false
